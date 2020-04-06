@@ -1,0 +1,23 @@
+@media(max-width: 320px) {
+  .ml--20-320 {
+    margin-left: -20px;
+  }
+  
+  .position-relative {
+    position: relative;
+
+    &.left--260 {
+      left: 10px;
+      top: -35px;
+    }
+  }
+
+  .flex {
+    display: flex;
+
+    &.flex-wrap {
+    width: 320px;
+    flex-wrap: wrap;
+    }
+  }
+}
