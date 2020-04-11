@@ -10,6 +10,10 @@
   margin-top: 877px;
 }
 
+.mt-550 {
+  margin-top: 550px;
+}
+
 .mt-223 {
   margin-top: 38.32%;
 }
@@ -24,6 +28,10 @@
 
 .mt-70 {
   margin-top: 70px;
+}
+
+.mt-55 {
+  margin-top: 55px;
 }
 
 .mt-50 {
@@ -42,19 +50,43 @@
   margin-top: 25px;
 }
 
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-15 {
+  margin-top: 15px;
+}
+
+.mr-68 {
+  margin-right: 68px;
+}
+
+.mr-50 {
+  margin-right: 50px * 0.75;
+}
+
+.mr-30 {
+  margin-right: 30px;
+}
+
 .mr-12 {
   margin-right: 12px;
 }
 
-.mt-20 {
-  margin-top: 20px;
+.mr--100 {
+  margin-right: -100px;
 }
 
 .mb--25 {
   margin-bottom: -25px;
 }
 
-.ml-356 {
+.ml-360 {
   margin-left: $main-ml;
 }
 
@@ -71,7 +103,11 @@
 }
 
 .ml-68 {
-  margin-left: 68px;
+  margin-left: 3.54%;
+}
+
+.ml-50 {
+  margin-left: 2.6%
 }
 
 .ml-30 {
@@ -97,6 +133,10 @@
 .my-50 {
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+.pt-100 {
+  padding-top: 100px;
 }
 
 .pt-17 {
@@ -171,6 +211,11 @@
   line-height: 26px;
 }
 
+.font-size-20px {
+  font-size: 20px;
+  line-height: 23px;
+}
+
 .font-size-18px {
   font-size: 18px;
   line-height: 21px;
@@ -197,6 +242,11 @@
 }
 
 .font-size-12px {
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.font-size-12px-lh-28 {
   font-size: 12px;
   line-height: 28px;
 }

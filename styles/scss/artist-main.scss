@@ -1,0 +1,27 @@
+.similar-artists {
+  width: 62.5%;
+  padding-bottom: 100px;
+}
+
+.container-track {
+  width: 27.71%;
+  height: 50px;
+  max-width: 532px;
+  min-width: 385px;
+  flex-grow: 0;
+  flex-shrink: 1;
+}
+
+.position-relative {
+  position: relative;
+
+  &.position-triangle {
+    top: -124.25px;
+    right: -18.75px;
+  }
+
+  &.position-circle {
+    top: -98.25px;
+    right: -11.25px;
+  }
+}

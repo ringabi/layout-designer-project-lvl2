@@ -1,0 +1,71 @@
+.artist-banner {
+  background: no-repeat top 0 left -447px url("../images/Morten%20Harket.png");
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 550px;
+  flex: 0 1 1920px;
+  box-sizing: border-box;
+}
+
+.position-absolute {
+  position: absolute;
+
+  &.top-0 {
+    top: 0;
+  }
+
+  &.top-280 {
+    top: 29.01%; 
+  }
+
+  &.top-361 {
+    top: 33.8%;
+  }
+
+  &.top-418 {
+    top: 49.35%;
+  }
+}
+
+.position-relative {
+  position: relative;
+  
+  &.position-triangle-mix {
+    top: -2px;
+    right: -2px;
+  }
+
+  &.position-circle-mix {
+    left: -20px;
+  }
+}
+
+.mix {
+  width: 200px;
+  height: 50px;
+  background: $footer-bg-first;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+.to-favorites { 
+  width: 200px;
+  height: 50px;
+  background: $footer-bg-second;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+.triangle:before {
+  content: ' \25b7';
+}
+
+.circle:before {
+  content: ' \25ef';
+}
+
+.heart:before {
+  content: ' \2661';
+}

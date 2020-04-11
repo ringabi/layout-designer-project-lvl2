@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .text-white {
   color: #FFFFFF;
 }
@@ -42,6 +43,10 @@ a {
   margin-top: 877px;
 }
 
+.mt-550 {
+  margin-top: 550px;
+}
+
 .mt-223 {
   margin-top: 38.32%;
 }
@@ -56,6 +61,10 @@ a {
 
 .mt-70 {
   margin-top: 70px;
+}
+
+.mt-55 {
+  margin-top: 55px;
 }
 
 .mt-50 {
@@ -74,20 +83,44 @@ a {
   margin-top: 25px;
 }
 
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-15 {
+  margin-top: 15px;
+}
+
+.mr-68 {
+  margin-right: 68px;
+}
+
+.mr-50 {
+  margin-right: 37.5px;
+}
+
+.mr-30 {
+  margin-right: 30px;
+}
+
 .mr-12 {
   margin-right: 12px;
 }
 
-.mt-20 {
-  margin-top: 20px;
+.mr--100 {
+  margin-right: -100px;
 }
 
 .mb--25 {
   margin-bottom: -25px;
 }
 
-.ml-356 {
-  margin-left: 18.54%;
+.ml-360 {
+  margin-left: 18.75%;
 }
 
 .ml-322 {
@@ -103,7 +136,11 @@ a {
 }
 
 .ml-68 {
-  margin-left: 68px;
+  margin-left: 3.54%;
+}
+
+.ml-50 {
+  margin-left: 2.6%;
 }
 
 .ml-30 {
@@ -129,6 +166,10 @@ a {
 .my-50 {
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+.pt-100 {
+  padding-top: 100px;
 }
 
 .pt-17 {
@@ -203,6 +244,11 @@ a {
   line-height: 26px;
 }
 
+.font-size-20px {
+  font-size: 20px;
+  line-height: 23px;
+}
+
 .font-size-18px {
   font-size: 18px;
   line-height: 21px;
@@ -229,6 +275,11 @@ a {
 }
 
 .font-size-12px {
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.font-size-12px-lh-28 {
   font-size: 12px;
   line-height: 28px;
 }
@@ -420,6 +471,103 @@ a {
   width: 534px;
 }
 
+.font-size-16p {
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.artist-banner {
+  background: no-repeat top 0 left -447px url("../images/Morten%20Harket.png");
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 550px;
+  flex: 0 1 1920px;
+  box-sizing: border-box;
+}
+
+.position-absolute {
+  position: absolute;
+}
+.position-absolute.top-0 {
+  top: 0;
+}
+.position-absolute.top-280 {
+  top: 29.01%;
+}
+.position-absolute.top-361 {
+  top: 33.8%;
+}
+.position-absolute.top-418 {
+  top: 49.35%;
+}
+
+.position-relative {
+  position: relative;
+}
+.position-relative.position-triangle-mix {
+  top: -2px;
+  right: -2px;
+}
+.position-relative.position-circle-mix {
+  left: -20px;
+}
+
+.mix {
+  width: 200px;
+  height: 50px;
+  background: #5328a1;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+.to-favorites {
+  width: 200px;
+  height: 50px;
+  background: #95390C;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+.triangle:before {
+  content: " ▷";
+}
+
+.circle:before {
+  content: " ◯";
+}
+
+.heart:before {
+  content: " ♡";
+}
+
+.similar-artists {
+  width: 62.5%;
+  padding-bottom: 100px;
+}
+
+.container-track {
+  width: 27.71%;
+  height: 50px;
+  max-width: 532px;
+  min-width: 385px;
+  flex-grow: 0;
+  flex-shrink: 1;
+}
+
+.position-relative {
+  position: relative;
+}
+.position-relative.position-triangle {
+  top: -124.25px;
+  right: -18.75px;
+}
+.position-relative.position-circle {
+  top: -98.25px;
+  right: -11.25px;
+}
+
 @media (max-width: 1024px) {
   .flex {
     display: flex;
@@ -471,7 +619,7 @@ a {
     margin-bottom: -15px;
   }
 
-  .ml-356 {
+  .ml-360 {
     margin-left: 20px;
   }
 
@@ -481,6 +629,17 @@ a {
 
   .vertical-align-20 {
     vertical-align: 14px;
+  }
+
+  .artist-banner {
+    background: no-repeat top 0 left -697px url("../images/Morten%20Harket.png");
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 550px;
+    flex: 0 1 1920px;
+    box-sizing: border-box;
   }
 }
 @media (max-width: 768px) {
@@ -502,7 +661,15 @@ a {
   }
 
   .mt-30-768 {
-    margin-top: 30px;
+    margin-top: 20px;
+  }
+
+  .mt-25-768 {
+    margin-top: 25px;
+  }
+
+  .mr-50 {
+    margin-right: 20px;
   }
 
   .ml-0-768 {
@@ -511,6 +678,15 @@ a {
 
   .width-social-network {
     width: 120px;
+  }
+
+  .artist-banner {
+    background: no-repeat top 0 left -947px url("../images/Morten%20Harket.png");
+  }
+
+  .artist-image {
+    width: 167px;
+    height: 167px;
   }
 }
 @media (max-width: 426px) {
@@ -541,6 +717,10 @@ a {
 
   .mt-30-425 {
     margin-top: 30px;
+  }
+
+  .mt-20-425 {
+    margin-top: 20px;
   }
 
   .ml-15-425 {
@@ -594,14 +774,53 @@ a {
   .flex.order-2 {
     order: 2;
   }
+
+  .artist-banner {
+    background: no-repeat top 0 left -1097px url("../images/Morten%20Harket.png");
+  }
+
+  .artist-image {
+    width: 182.5px;
+    height: 182.5px;
+  }
+
+  .mix {
+    min-width: 280px;
+    height: 50px;
+    background: #5328a1;
+    box-sizing: border-box;
+    border-radius: 3px;
+    flex-shrink: 1;
+  }
+
+  .to-favorites {
+    min-width: 280px;
+    height: 50px;
+    background: #95390C;
+    box-sizing: border-box;
+    border-radius: 3px;
+    flex-shrink: 1;
+  }
 }
 @media (max-width: 375px) {
+  .mt-170-375 {
+    margin-top: 170px;
+  }
+
   .mt-100-375 {
     margin-top: 100px;
   }
 
-  .mt-170-375 {
-    margin-top: 170px;
+  .mt-55 {
+    margin-top: 0;
+  }
+
+  .mt-30-768 {
+    margin-top: 20px;
+  }
+
+  .mr-12-375 {
+    margin-right: 12px;
   }
 
   .ml-77-425 {
@@ -643,6 +862,40 @@ a {
   .flex.justify-content-around-1024 {
     justify-content: flex-start;
   }
+
+  .container-track {
+    width: 27.71%;
+    height: 50px;
+    min-width: 335px;
+    flex-shrink: 1;
+  }
+
+  .artist-image {
+    width: 157.5px;
+    height: 157.5px;
+  }
+
+  section .font-size-16px {
+    font-size: 12px;
+    line-height: 14.25px;
+  }
+  section .font-size-20px {
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .position-absolute {
+    position: absolute;
+  }
+  .position-absolute.top-280 {
+    top: 47.58%;
+  }
+  .position-absolute.top-361 {
+    top: 41.8%;
+  }
+  .position-absolute.top-418 {
+    top: 64.77%;
+  }
 }
 @media (max-width: 320px) {
   .ml--20-320 {
@@ -663,6 +916,42 @@ a {
   .flex.flex-wrap {
     width: 320px;
     flex-wrap: wrap;
+  }
+
+  .mb--16 {
+    margin-bottom: -16px;
+  }
+
+  .artist-image {
+    width: 130px;
+    height: 130px;
+  }
+
+  section .font-size-16px {
+    font-size: 12px;
+    line-height: 14.25px;
+  }
+  section .font-size-20px {
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .artist-banner {
+    background: no-repeat top 0 left -1200px url("../images/Morten%20Harket.png");
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 550px;
+    flex: 0 1 1920px;
+    box-sizing: border-box;
+  }
+
+  .container-track {
+    width: 27.71%;
+    height: 50px;
+    max-width: 532px;
+    min-width: 280px;
+    flex-shrink: 1;
   }
 }
 
