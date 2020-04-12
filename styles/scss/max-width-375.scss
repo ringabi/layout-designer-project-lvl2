@@ -32,7 +32,7 @@
   }
 
   .ml--52 {
-    margin-left: -52px;
+    margin-left: -32px;
   }
 
   .ml--875 {
@@ -58,6 +58,11 @@
 
     &.justify-content-around-1024 {
       justify-content: flex-start;
+    }
+
+    &.flex-grow-max-570-284 {
+      max-width: 335px;
+      flex-grow: 0;
     }
   }
 

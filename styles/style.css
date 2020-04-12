@@ -31,6 +31,10 @@ a {
   text-decoration: none;
 }
 
+a:focus, a:hover {
+  text-decoration: underline;
+}
+
 .m-0 {
   margin: 0;
 }
@@ -586,7 +590,7 @@ a {
     justify-content: space-around;
   }
   .flex.flex-grow-max-320 {
-    max-width: 320px;
+    max-width: 280px;
     flex-grow: 0;
   }
 
@@ -739,10 +743,6 @@ a {
     margin-left: -25px;
   }
 
-  .ml--20-425 {
-    margin-left: -20px;
-  }
-
   .ml--875 {
     margin-left: -875px;
   }
@@ -773,6 +773,10 @@ a {
   }
   .flex.order-2 {
     order: 2;
+  }
+  .flex.flex-grow-max-570-284 {
+    max-width: 385px;
+    flex-grow: 0;
   }
 
   .artist-banner {
@@ -836,7 +840,7 @@ a {
   }
 
   .ml--52 {
-    margin-left: -52px;
+    margin-left: -32px;
   }
 
   .ml--875 {
@@ -861,6 +865,10 @@ a {
   }
   .flex.justify-content-around-1024 {
     justify-content: flex-start;
+  }
+  .flex.flex-grow-max-570-284 {
+    max-width: 335px;
+    flex-grow: 0;
   }
 
   .container-track {
@@ -898,10 +906,6 @@ a {
   }
 }
 @media (max-width: 320px) {
-  .ml--20-320 {
-    margin-left: -20px;
-  }
-
   .position-relative {
     position: relative;
   }
@@ -916,6 +920,14 @@ a {
   .flex.flex-wrap {
     width: 320px;
     flex-wrap: wrap;
+  }
+  .flex.flex-grow-max-570-284 {
+    max-width: 280px;
+    flex-grow: 0;
+  }
+
+  .ml--52 {
+    margin-left: -32px;
   }
 
   .mb--16 {

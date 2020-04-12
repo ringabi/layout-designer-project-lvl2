@@ -36,3 +36,7 @@ $line-height-70: 70px;
 a {
   text-decoration: none;
 }
+
+a:focus, a:hover {
+  text-decoration: underline;
+}

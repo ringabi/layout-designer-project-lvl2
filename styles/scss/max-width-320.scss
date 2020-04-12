@@ -1,8 +1,4 @@
 @media(max-width: 320px) {
-  .ml--20-320 {
-    margin-left: -20px;
-  }
-  
   .position-relative {
     position: relative;
 
@@ -19,6 +15,15 @@
     width: 320px;
     flex-wrap: wrap;
     }
+
+    &.flex-grow-max-570-284 {
+      max-width: 280px;
+      flex-grow: 0;
+    }
+  }
+
+  .ml--52 {
+    margin-left: -32px;
   }
 
   .mb--16 {
