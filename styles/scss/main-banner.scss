@@ -14,7 +14,7 @@
   position: absolute;
 
   &.top-272 {
-    top: 14.17%; 
+    top: 272px;
   }
 
   &.top-493 {
@@ -25,8 +25,14 @@
 .position-relative {
   position: relative;
   
-  &.left--260 {
-  left: -260px;
+  &.position-имя {
+    top: -113px;
+    left: -240px;
+  }
+
+  &.position-email {
+    top: -113px;
+    right: -32px;
   }
 }
 
@@ -44,5 +50,4 @@
   height: 50px;
   background: #34C176;
   border-radius: 3px;
-  box-sizing: border-box;
 }

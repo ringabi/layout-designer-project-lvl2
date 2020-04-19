@@ -18,6 +18,10 @@
       justify-content: space-around;
     }
 
+    &.flex-direction-column-1024 {
+      flex-direction: column;
+    }
+
     &.flex-grow-max-320 {
       max-width: 280px;
       flex-grow: 0;
@@ -60,15 +64,17 @@
   .ml-360 {
     margin-left: 20px;
   }
-.ml-227-1024 {
-margin-left: 190px;
-}
+
   .ml-68 {
     margin-left: 0;
   }
 
   .vertical-align-20 {
     vertical-align: 14px;
+  }
+
+  .width-1200 {
+    width: 984px;
   }
 
   .artist-banner {

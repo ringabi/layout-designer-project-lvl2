@@ -32,16 +32,8 @@
     margin-top: 20px;
   }
 
-  .ml-15-425 {
-    margin-left: 15px;
-  }
-
   .ml-77-425 {
     margin-left: 77px;
-  }
-
-  .ml--37 {
-    margin-left: 0;
   }
 
   .ml-211 {
@@ -52,13 +44,13 @@
     margin-left: -875px;
   }
 
-  .ml-227-1024 {
-    margin-left: 80px;
-  }
-
   .my-50 {
     margin-top: 15px;
     margin-bottom: 15px;
+  }
+
+  .width-1200 {
+    width: 385px;
   }
 
   .vertical-align-20 {
@@ -68,6 +60,20 @@
   .flex-direction-column-425 {
     display: flex;
     flex-direction: column;
+  }
+
+  .position-relative {
+    position: relative;
+
+    &.position-имя {
+      top: -194px;
+      left: -90px;
+    }
+
+    &.position-email {
+      top: -113px;
+      right: 122px;
+    }
   }
 
   .flex {

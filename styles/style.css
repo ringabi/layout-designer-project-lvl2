@@ -35,6 +35,10 @@ a:focus, a:hover {
   text-decoration: underline;
 }
 
+.width-100-percent {
+  width: 100%;
+}
+
 .m-0 {
   margin: 0;
 }
@@ -43,7 +47,7 @@ a:focus, a:hover {
   margin: 0 auto;
 }
 
-.mt-877 {
+.mt-864 {
   margin-top: 864px;
 }
 
@@ -336,7 +340,6 @@ a:focus, a:hover {
   width: 278px;
   height: 30px;
   background: #3c3b3d;
-  border: 1px solid;
   padding-left: 5px;
   padding-right: 5px;
   border-radius: 50px;
@@ -344,11 +347,11 @@ a:focus, a:hover {
 }
 
 .width-1200 {
-  width: 62.5%;
+  width: 1200px;
 }
 
 .width-1005 {
-  width: 83.77%;
+  width: 1005px;
 }
 
 .banner {
@@ -367,7 +370,7 @@ a:focus, a:hover {
   position: absolute;
 }
 .position-absolute.top-272 {
-  top: 14.17%;
+  top: 272px;
 }
 .position-absolute.top-493 {
   top: 58.21%;
@@ -376,8 +379,13 @@ a:focus, a:hover {
 .position-relative {
   position: relative;
 }
-.position-relative.left--260 {
-  left: -260px;
+.position-relative.position-имя {
+  top: -113px;
+  left: -240px;
+}
+.position-relative.position-email {
+  top: -113px;
+  right: -32px;
 }
 
 .input {
@@ -394,7 +402,6 @@ a:focus, a:hover {
   height: 50px;
   background: #34C176;
   border-radius: 3px;
-  box-sizing: border-box;
 }
 
 .container-subscribe {
@@ -505,7 +512,7 @@ a:focus, a:hover {
   top: 0;
 }
 .position-absolute.top-280 {
-  top: 19.01%;
+  top: 14.58%;
 }
 .position-absolute.top-361 {
   top: 33.8%;
@@ -554,7 +561,6 @@ a:focus, a:hover {
 }
 
 .similar-artists {
-  width: 62.5%;
   padding-bottom: 100px;
 }
 
@@ -612,6 +618,9 @@ a:focus, a:hover {
   .flex.justify-content-around-1024 {
     justify-content: space-around;
   }
+  .flex.flex-direction-column-1024 {
+    flex-direction: column;
+  }
   .flex.flex-grow-max-320 {
     max-width: 280px;
     flex-grow: 0;
@@ -654,16 +663,16 @@ a:focus, a:hover {
     margin-left: 20px;
   }
 
-  .ml-227-1024 {
-    margin-left: 190px;
-  }
-
   .ml-68 {
     margin-left: 0;
   }
 
   .vertical-align-20 {
     vertical-align: 14px;
+  }
+
+  .width-1200 {
+    width: 984px;
   }
 
   .artist-banner {
@@ -715,12 +724,8 @@ a:focus, a:hover {
     margin-left: 0;
   }
 
-  .ml-0-768 {
-    margin-left: 0;
-  }
-
-  .ml-227-1024 {
-    margin-left: 144px;
+  .width-1200 {
+    width: 728px;
   }
 
   .width-social-network {
@@ -770,16 +775,8 @@ a:focus, a:hover {
     margin-top: 20px;
   }
 
-  .ml-15-425 {
-    margin-left: 15px;
-  }
-
   .ml-77-425 {
     margin-left: 77px;
-  }
-
-  .ml--37 {
-    margin-left: 0;
   }
 
   .ml-211 {
@@ -790,13 +787,13 @@ a:focus, a:hover {
     margin-left: -875px;
   }
 
-  .ml-227-1024 {
-    margin-left: 80px;
-  }
-
   .my-50 {
     margin-top: 15px;
     margin-bottom: 15px;
+  }
+
+  .width-1200 {
+    width: 385px;
   }
 
   .vertical-align-20 {
@@ -806,6 +803,18 @@ a:focus, a:hover {
   .flex-direction-column-425 {
     display: flex;
     flex-direction: column;
+  }
+
+  .position-relative {
+    position: relative;
+  }
+  .position-relative.position-имя {
+    top: -194px;
+    left: -90px;
+  }
+  .position-relative.position-email {
+    top: -113px;
+    right: 122px;
   }
 
   .flex {
@@ -854,12 +863,12 @@ a:focus, a:hover {
   }
 }
 @media (max-width: 375px) {
-  .mt-170-375 {
-    margin-top: 170px;
-  }
-
   .mt-100-375 {
     margin-top: 100px;
+  }
+
+  .mt-100-768 {
+    margin-top: 0;
   }
 
   .mt-55 {
@@ -874,24 +883,16 @@ a:focus, a:hover {
     margin-right: 12px;
   }
 
+  .ml-140-768 {
+    margin-left: -20px;
+  }
+
   .ml-77-425 {
     margin-left: 52px;
   }
 
-  .ml-227-1024 {
-    margin-left: 20px;
-  }
-
   .ml-21 {
     margin-left: 0;
-  }
-
-  .ml--37 {
-    margin-left: 14px;
-  }
-
-  .ml--52 {
-    margin-left: -20px;
   }
 
   .ml--875 {
@@ -985,24 +986,21 @@ a:focus, a:hover {
     width: 280px;
   }
 
-  .ml--52 {
-    margin-left: -111px;
+  .mt-100-768 {
+    margin-top: -20px;
   }
 
-  .ml-227-1024 {
-    margin-left: 20px;
+  .mr-40-1024 {
+    margin-right: 60px;
   }
 
   .ml-77-425 {
-    margin-left: 77px;
+    margin-left: 20px;
   }
 
-  .ml--37 {
-    margin-left: 77px;
-  }
-
-  .mb--16 {
-    margin-bottom: -16px;
+  .px-20 {
+    padding-right: 0;
+    padding-left: 0;
   }
 
   .artist-image {
@@ -1026,9 +1024,7 @@ a:focus, a:hover {
     left: 0;
     width: 2200px;
     height: 630px;
-    background-siz: 320px 630px;
     flex: 1 0 600px;
-    box-sizing: border-bo;
   }
 
   .container-track {

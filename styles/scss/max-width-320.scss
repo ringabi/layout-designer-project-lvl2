@@ -26,24 +26,21 @@
     width: 280px;
   }
 
-  .ml--52 {
-    margin-left: -111px;
+  .mt-100-768 {
+    margin-top: -20px;
   }
 
-  .ml-227-1024 {
-    margin-left: 20px;
+  .mr-40-1024 {
+    margin-right: 60px;
   }
 
   .ml-77-425 {
-    margin-left: 77px;
+    margin-left: 20px;
   }
 
-  .ml--37 {
-    margin-left: 77px;
-  }
-
-  .mb--16 {
-    margin-bottom: -16px;
+  .px-20 {
+    padding-right: 0;
+    padding-left: 0;
   }
 
   .artist-image {
@@ -70,9 +67,7 @@
     left: 0;
     width: 2200px;
     height: 630px;
-    background-siz: 320px 630px;
     flex: 1 0 600px;
-    box-sizing: border-bo;
   }
 
   .container-track {

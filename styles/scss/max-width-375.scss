@@ -1,10 +1,10 @@
 @media (max-width: 375px) {
-  .mt-170-375 {
-    margin-top: 170px;
-  }
-
   .mt-100-375 {
     margin-top: 100px;
+  }
+
+  .mt-100-768 {
+    margin-top: 0;
   }
 
   .mt-55 {
@@ -19,24 +19,16 @@
     margin-right: 12px;
   }
 
+  .ml-140-768 {
+    margin-left: -20px;
+  }
+
   .ml-77-425 {
     margin-left: 52px;
   }
 
-  .ml-227-1024 {
-    margin-left: 20px;
-  }
-
   .ml-21 {
     margin-left: 0;
-  }
-
-  .ml--37 {
-    margin-left: 14px;
-  }
-
-  .ml--52 {
-    margin-left: -20px;
   }
 
   .ml--875 {
