@@ -1,14 +1,9 @@
-.container-subscribe {
-  display: flex;
-  flex-wrap: wrap;
-  width: 1200px;
-}
-
 .free {
   background: no-repeat url("../images/subscribe_1.png");
-  width: 352px;
+  width: 350px;
   height: 582px;
   box-sizing: border-box;
+  margin: 0 10px;
 }
 
 .standart {
@@ -16,6 +11,7 @@
   width: 350px;
   height: 582px;
   box-sizing: border-box;
+  margin: 0 10px;
 }
 
 .premium {
@@ -23,6 +19,7 @@
   width: 350px;
   height: 582px;
   box-sizing: border-box;
+  margin: 0 10px;
 }
 
 .background-color-main {

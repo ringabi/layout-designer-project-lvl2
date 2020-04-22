@@ -69,22 +69,35 @@
     margin-left: 0;
   }
 
+  .ml-20-1024 {
+    margin-left: 20px;
+  }
+
+  .px-20-1024 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
   .vertical-align-20 {
     vertical-align: 14px;
   }
 
   .width-1200 {
+    width: 1024px;
+  }
+
+  .width-menu-1 {
+    width: 984px;
+  }
+
+  .width-1005 {
     width: 984px;
   }
 
   .artist-banner {
     background: no-repeat top 0 left -697px url("../images/Morten%20Harket.png");
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 550px;
-    flex: 0 1 1920px;
     box-sizing: border-box;
   }
 }

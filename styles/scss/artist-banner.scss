@@ -1,8 +1,5 @@
 .artist-banner {
   background: no-repeat url("../images/Morten%20Harket.png");
-  position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
   height: 550px;
   flex: 0 1 1920px;
@@ -16,16 +13,8 @@
     top: 0;
   }
 
-  &.top-280 {
-    top: 14.58%; 
-  }
-
-  &.top-361 {
-    top: 33.8%;
-  }
-
-  &.top-418 {
-    top: 21.77%;
+  &.left-0 {
+    left: 0;
   }
 }
 
@@ -60,6 +49,7 @@
 
 .triangle:before {
   content: ' \25b7';
+  width: 30px;
 }
 
 .circle:before {
