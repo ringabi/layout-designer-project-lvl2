@@ -23,6 +23,10 @@
     margin-right: 12px;
   }
 
+  .mb--22-425 {
+    margin-bottom: 0;
+  }
+
   .ml-140-768 {
     margin-left: -20px;
   }
@@ -59,14 +63,13 @@
     &.justify-content-around-1024 {
       justify-content: flex-start;
     }
-
-    &.flex-grow-max-570-284 {
-      max-width: 335px;
-      flex-grow: 0;
-    }
   }
 
-  .width-1200 {
+  .max-width {
+    max-width: 335px;
+  }
+
+  .container {
     width: 375px;
   }
 

@@ -10,97 +10,97 @@
 </head>
 
 <body class="m-0 font-family-roboto">  
-    <header class="font-weight-bold flex-wrap width-1200 m-0-auto">
-	<div class="position-absolute top-0 mt-25 width-1200">
-	    <div class="flex justify-content-between flex-direction-column-1024 px-20-1024">
-                <div class="flex align-items-center">
-                    <img src="images/logo.svg" alt="Логотип" width="20" height="20">
-	            <span class="font-size-11px vertical-align-5 ml-4 text-white">MUSIC</span><span class="font-size-11px vertical-align-5 ml-4 text-white">BOX</span>
+    <header class="header container">
+        <div class="flex justify-content-between flex-direction-column-1024 mt-25">
+            <div class="flex align-items-center ml-20-1024">
+                <img src="images/logo.svg" alt="Логотип" width="20" height="20">
+	        <span class="font-size-11px vertical-align-5 ml-4 text-white">music box</span>
+            </div>
+	    <div class="flex justify-content-between width-1005 flex-direction-column-768 mt-20-1024">
+                <div class="flex flex-direction-column-375 order-2-768 ml-20-1024">
+                    <a href="" class="mt-20-768 pt-9">главная</a>
+	            <a href="catalog.html" class="ml-36 mt-20-768 pt-9">каталог</a>
+                    <a href="catalog.html" class="ml-36 mt-20-768 pt-9">исполнители</a>
+                    <a href="" class="ml-36 mt-20-768 pt-9">контакты</a>
                 </div>
-	        <div class="flex justify-content-between width-1005 flex-direction-column-768">
-                    <div class="font-size-11px flex flex-direction-column-375 order-2-768">
-                        <a href="" class="text-gray mt-30-768 pt-9">ГЛАВНАЯ</a>
-	                <a href="catalog.html" class="ml-36 text-gray mt-30-768 pt-9">КАТАЛОГ</a>
-                        <a href="catalog.html" class="ml-36 text-gray mt-30-768 pt-9">ИСПОЛНИТЕЛИ</a>
-                        <a href="" class="ml-36 text-gray mt-30-768 pt-9">КОНТАКТЫ</a>
-                    </div>
-                    <form class="search-box flex justify-content-between align-items-center mt-30-768 order-1-768">
-	                <span class="text-silver pl-5 font-size-11px text-gray">ПОИСК...</span>
-                    </form>
-	        </div>
+                <form class="mt-20-768 order-1-768 ml--26-768 flex align-items-center">
+			<span class="position-search">поиск...</span>
+			<input type="text" class="search-box">
+                </form>
 	    </div>
 	</div>
     </header>
   
     <main class="background-color-main">
-        <section id="main-banner" class="banner flex align-items-center flex-direction-column text-white font-weight-bold width-100-percent">
-	    <div class="flex justify-content-center flex-direction-column width-1200 flex-wrap mt-217">
-	        <h1 class="font-size-60px text-white mb--25 mt-100-375 text-align-center">ОНЛАЙН МУЗЫКА ГДЕ УГОДНО</h1>
-	        <h3 class="font-size-30px text-white mt-30-425 text-align-center">БЕЗ ОГРАНИЧЕНИЙ</h3>
+        <section id="main-banner" class="banner">
+	    <div class="container flex flex-direction-column flex-wrap mt-217">
+	        <h1 class="font-size-60px text-align-center mb--25 mt-100-375">онлайн музыка где угодно</h1>
+	        <h3 class="font-size-30px mt-30-425">без ограничений</h3>
 		<p class="font-size-18px text-white text-align-center">Получите доступ всего за несколько шагов. Заполните форму ниже и откройте мир музыки</p>
 	    </div>
-	    <form class="flex flex-center flex-direction-column align-items-center flex-wrap mt-40">
+	    <form class="flex flex-center flex-direction-column flex-wrap mt-40">
 	        <div class="ml-77-425">
-		    <input type="text" class="input text-gray font-size-14px font-weight-bold pl-50 mr-30">
-		    <input class="input text-white font-size-14px font-weight-bold pl-60 mt-30-425">	
-		</div>
-		<div class="button mt-30 flex flex-center flex-wrap flex-grow-max-570-284">
-		    <a href="" class="font-size-14px text-white font-weight-bold">ПОЛУЧИТЬ ДОСТУП</a>
-		</div>
-		<div>
-		<span class="position-relative position-имя">Имя</span><span class="position-relative position-email">Email</span>
-		</div>
+		    <input type="text" class="input pl-50 mr-30">
+		    <input class="input pl-60 mt-30-425">	
+                </div>
+                <div class="button mt-30 max-width">
+                    <a href="" class="text-white">получить доступ</a>
+                </div>
+                <div class="font-size-14px font-weight-bold">
+                    <span class="position-relative position-имя">Имя</span>
+                    <span class="position-relative position-email">Email</span>
+                </div>
 	    </form>
         </section>
-        <section id="subscription" class="width-1200 flex justify-content-between flex-direction-column flex-wrap m-0-auto">
-            <h2 class="font-size-38px font-weight-bold text-white text-align-center">ФОРМЫ ПОДПИСКИ</h2>
-            <div class="flex justify-content-between text-white flex-wrap">
-                <div class="free flex flex-direction-column align-items-center">
-	            <p class="font-size-24px mt-25">БЕСПЛАТНАЯ</p>
+        <section id="subscription" class="container flex justify-content-between flex-direction-column flex-wrap">
+            <h2 class="font-size-38px">формы подписки</h2>
+            <div class="flex justify-content-between flex-wrap">
+                <div class="bg-free subscription">
+	            <p class="font-size-24px text-uppercase mt-25">бесплатная</p>
 	            <div class="mt-223">
 	                <span class="font-size-60px">0</span>
 	                <span class="font-size-30px vertical-align-20 pl-5">РУБ.</span>
 	            </div>
-		    <a href="" class="button-to-issue font-size-24px mt-40 flex flex-center text-white">ОФОРМИТЬ</a>
-		    <span class="font-size-11px text-white mt-50 px-20 text-align-center">Оплата в месяц. Бесплатный тариф предоставляет доступ ко всей коллекции музыки. Присутствует реклама</span>
+		    <a href="" class="button-to-issue mt-40">оформить</a>
+		    <span class="font-size-11px mt-50 px-20">Оплата в месяц. Бесплатный тариф предоставляет доступ ко всей коллекции музыки. Присутствует реклама</span>
                 </div>
-                <div class="standart flex align-items-center flex-direction-column">
-	            <p class="font-size-24px mt-25">СТАНДАРТНАЯ</p>
+                <div class="bg-standart subscription">
+	            <p class="font-size-24px text-uppercase mt-25">стандартная</p>
 	            <div class="mt-223">
 	                <span class="font-size-60px">250</span>
 	                <span class="font-size-30px vertical-align-20 pl-5">РУБ.</span>
 	            </div>
-	            <a href="" class="button-to-issue font-size-24px mt-40 text-white flex flex-center">ОФОРМИТЬ</a>	  
-                    <span class="font-size-11px text-white mt-50 px-20 text-align-center">Оплата в месяц. Стандартный тариф предоставляет доступ ко всей коллекции музыки в среднем качестве</span>
+	            <a href="" class="button-to-issue mt-40">оформить</a>	  
+                    <span class="font-size-11px mt-50 px-20">Оплата в месяц. Стандартный тариф предоставляет доступ ко всей коллекции музыки в среднем качестве</span>
                 </div> 
-                <div class="premium flex align-items-center flex-direction-column">
-	            <p class="font-size-24px mt-25">ПРЕМИУМ</p>
+                <div class="bg-premium subscription">
+	            <p class="font-size-24px text-uppercase mt-25">премиум</p>
 	            <div class="mt-223">
 	                <span class="font-size-60px">500</span>
 	                <span class="font-size-30px vertical-align-20 pl-5">РУБ.</span>
 	            </div>
-	            <a href="" class="button-to-issue font-size-24px mt-40 text-white flex flex-center">ОФОРМИТЬ</a>
-	            <span class="font-size-11px text-white mt-50 px-20 text-align-center">Оплата в месяц. Премиум тариф предоставляет доступ ко всей коллекции музыки в высоком качестве</span>
+	            <a href="" class="button-to-issue mt-40">оформить</a>
+	            <span class="font-size-11px mt-50 px-20">Оплата в месяц. Премиум тариф предоставляет доступ ко всей коллекции музыки в высоком качестве</span>
                 </div>
             </div>
             <div class="font-size-22px mt-50 text-white flex flex-wrap text-align-center">На всех тарифах возможно прослушивание музыки с мобильных устройств. На премиум тарифе вы можете скачать все композиции на ваше устройство и слушать музыку без подключения к интернету
             </div>
         </section>
-        <section id="news" class="width-1200 m-0-auto">
-	        <h2 class="font-size-38px font-weight-bold text-align-center text-white mt-100">ПОСЛЕДНИЕ НОВОСТИ</h2>
+        <section id="news" class="container">
+	        <h2 class="font-size-38px mt-100">последние новости</h2>
 	        <div class="flex flex-direction-row flex-wrap">
-	            <img class="mt-50 flex flex-wrap flex-grow-max-570-284 px-20-1024" src="images/Music%20to%20Be%20Murdered%20By.png" alt="">
+	            <img class="mt-50 max-width px-20-1024" src="images/Music%20to%20Be%20Murdered%20By.png" alt="">
 	            <div class="ml-68 px-20-1024">
 	                <p class="mt-50 font-size-30px text-white">Music to Be Murdered By</p>
 	                <p class="font-size-14px-lh-28 text-8c8c8c">Новый альбом Eminem "Music to Be Murdered By" уже доступен в нашем сервисе. На альбоме вас ждёт 20 новых треков.</p>
 	                <div class="mt-16 pt-10">
 	                    <img src="images/avatar.png" alt="">
-	                    <span class="ml-20 color-music-box">MUSIC BOX</span>
+	                    <span class="ml-20 color-f89202 text-uppercase">music box</span>
 	                    <span class="line-1 ml-20"></span>
 	                    <span class="ml-20 font-size-12px-lh-28 text-555555">17/01/2020</span>
 	                </div>
-	                <div class="button-to-album font-weight-bold text-align-center pt-6 mt-30">
-		            <a href="" class="font-size-12px-lh-28 text-8c8c8c">К альбому</a>
+	                <div class="button-to-album pt-6 mt-30">
+		            <a href="" class="text-8c8c8c">К альбому</a>
 		        </div>
 	            </div>
 	        </div>
@@ -110,25 +110,25 @@
 	                <p class="font-size-14px-lh-28 text-8c8c8c">Легенда рока Оззи Озборн спустя 10 лет выпустил новый альбом Ordinary man. Слушайте в числе первых на Music Box</p>
 	                <div class="mt-16 pt-10">
 	                    <img src="images/avatar.png" alt="">
-	                    <span class="ml-20 color-music-box">MUSIC BOX</span>
+	                    <span class="ml-20 color-f89202 text-uppercase">music box</span>
 	                    <span class="line-1 ml-20"></span>
 	                    <span class="ml-20 font-size-12px-lh-28 text-555555">24/02/2020</span>
 	                </div>
-	                <div class="button-to-album font-weight-bold text-align-center pt-6 mt-30">
-		            <a href="" class="font-size-12px-lh-28 text-8c8c8c">К альбому</a>
+	                <div class="button-to-album pt-6 mt-30">
+		            <a href="" class="text-8c8c8c">К альбому</a>
 		        </div>
 	            </div>
-	            <img class="mt-70 ml-68 flex flex-wrap order-1 flex-grow-max-570-284 px-20-1024" src="images/Ordinary%20Man.png" alt="">
+	            <img class="mt-70 ml-68 flex order-1 max-width px-20-1024" src="images/Ordinary%20Man.png" alt="">
                 </div> 
         </section>
         <section id="app" class="pb-100">
-	    <div class="width-1200 m-0-auto">
-                <h2 class="font-size-38px font-weight-bold text-white text-align-center mt-100">МОБИЛЬНОЕ ПРИЛОЖЕНИЕ</h2>
+	    <div class="container">
+                <h2 class="font-size-38px mt-100">мобильное приложение</h2>
                 <div class="flex flex-wrap">
 	            <div class="mt-70 flex flex-direction-column order-2 flex-wrap px-20-1024">
 		        <p class="text-8c8c8c">Воспользуйтесь нашим мобильным приложением. Оно позволит слушать музыку с любого устройства на базе операционных систем Android и iOS</p>
 		        <p class="text-8c8c8c mt-25">С тарифом "Премиум" приложение позволяет скачивать все композиции из нашей коллекции. Вы можете слушать музыку даже без интернета.</p>
-		        <div class="button-app font-size-14px mt-40 flex flex-grow-max-320 flex-wrap flex-center">
+		        <div class="button-app mt-40 flex-grow-max-320">
 		            <a href="" class="text-white">Скачать</a>
 		        </div>
 	            </div>
@@ -139,31 +139,31 @@
     </main>
 
     <footer class="footer">
-	<div class="width-1200 m-0-auto">
+	<div class="container">
             <div class="flex justify-content-between justify-content-around-1024 width-menu-1 flex-wrap">
                 <div class="flex flex-direction-column mt-80 mr-12-375 ml-20-375"> 
-                    <a href="" class="font-size-18px-f font-weight-bold text-silver">О нас</a>
-                    <a href="" class="text-silver mt-30">История компании</a>
-                    <a href="" class="text-silver mt-20">Карьера</a>
-                    <a href="" class="text-silver mt-20">Особенности</a>
-                    <a href="" class="text-silver mt-20">Пресса</a>
+                    <a href="" class="font-size-18px-f font-weight-bold">О нас</a>
+                    <a href="" class="mt-30">История компании</a>
+                    <a href="" class="mt-20">Карьера</a>
+                    <a href="" class="mt-20">Особенности</a>
+                    <a href="" class="mt-20">Пресса</a>
                 </div>
                 <div class="flex flex-direction-column mt-80 ml-20-320">
-                    <a href="" class="font-size-18px-f font-weight-bold text-silver">Поддержка</a>
-                    <a href="" class="text-silver mt-30">База знаний</a>
-                    <a href="#subscription" class="text-silver mt-20">Тарифы</a>
-                    <a href="#app" class="text-silver mt-20">Mобильное приложение</a>
-                    <a href="" class="text-silver mt-20">Условия использования</a>
+                    <a href="" class="font-size-18px-f font-weight-bold">Поддержка</a>
+                    <a href="" class="mt-30">База знаний</a>
+                    <a href="#subscription" class="mt-20">Тарифы</a>
+                    <a href="#app" class="mt-20">Mобильное приложение</a>
+                    <a href="" class="mt-20">Условия использования</a>
                 </div>
                 <div class="flex flex-direction-column mt-80 ml-20-375">
-                    <a href="" class="font-size-18px-f font-weight-bold text-silver">Контакты</a>
-                    <a href="" class="text-silver mt-30">hello@musicbox</a>
-                    <a href="" class="text-silver mt-20">Russia, Moscow. Music Box</a>
-                    <a href="" class="text-silver">studio</a>
-                    <a href="" class="text-silver mt-20">+7 499 999 99 99</a>
+                    <a href="" class="font-size-18px-f font-weight-bold">Контакты</a>
+                    <a href="" class="mt-30">hello@musicbox</a>
+                    <a href="" class="mt-20">Russia, Moscow. Music Box</a>
+                    <a href="">studio</a>
+                    <a href="" class="mt-20">+7 499 999 99 99</a>
                 </div>
                 <div class="mt-80 pr-12 ml-20-320">
-                    <a href="" class="font-size-18px-f font-weight-bold text-silver">Подписывайтесь</a>
+                    <a href="" class="font-size-18px-f font-weight-bold">Подписывайтесь</a>
                     <div class="mt-20 flex justify-content-between width-social-network">
 	                <a href=""><img src="images/Google+.png" alt=""></a>
 	                <a href=""><img src="images/Facebook.png" alt=""></a>
@@ -171,18 +171,16 @@
 	                <a href=""><img src="images/Instagram.png" alt=""></a>
                     </div>
                 </div>
-            </div>
-	    </div>
+	    </div>	
             <div class="line-1px mt-50"></div>
-	    <div class="width-1200 m-0-auto">
 	    <div class="width-menu-2 flex flex-wrap justify-content-between justify-content-around-1024 flex-direction-column-425">
-                <a href="" class="text-silver my-50 ml-20-425">Магазин</a>
-                <a href="" class="text-silver my-50 ml-20-425">Обслуживание</a>
-                <a href="" class="text-silver my-50 ml-20-425">Блог</a>
-                <a href="" class="text-silver my-50 ml-20-425">Поддержка</a>
-                <a href="" class="text-silver my-50 ml-20-425">Контакты</a>
+                <a href="" class="my-50">Магазин</a>
+                <a href="" class="my-50">Обслуживание</a>
+                <a href="" class="my-50">Блог</a>
+                <a href="" class="my-50">Поддержка</a>
+                <a href="" class="my-50">Контакты</a>
             </div>
-	</div>
+        </div>
     </footer>
 </body>
 </html>

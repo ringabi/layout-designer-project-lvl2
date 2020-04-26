@@ -25,12 +25,23 @@ $line-height-70: 70px;
  color: #555555;
 }
 
-.color-music-box {
+.color-f89202 {
   color: #F89202;
 }
 
 .font-family-roboto {
   font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-style: normal;
+}
+
+h2, h3 {
+  text-align: center;
 }
 
 a {
@@ -39,4 +50,8 @@ a {
 
 a:focus, a:hover {
   text-decoration: underline;
+}
+
+footer a {
+  color: #CACACA;
 }

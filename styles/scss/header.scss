@@ -1,11 +1,20 @@
 .search-box {
+  display: flex;
+  align-items: center;
   width: 278px;
   height: 30px;
-  background: rgba(60, 59, 61, 1);
-  padding-left: 5px;
-  padding-right: 5px;
+  background: #3c3b3d;
+  padding-left: 70px;
+  padding-right: 10px;
   border-radius: 50px;
   box-sizing: border-box;
+  border: none;
+  color: #ffffff;
+}
+
+.position-search {
+  position: relative;
+  left: 60px;
 }
 
 .width-1200 {
@@ -14,4 +23,21 @@
 
 .width-1005 {
   width: 1005px;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  right: 0; 
+  left: 0;
+  font-size: 11px;
+  line-height: 13px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #808080;
+  flex-wrap: wrap;
+}
+
+a {
+  color: #808080;
 }

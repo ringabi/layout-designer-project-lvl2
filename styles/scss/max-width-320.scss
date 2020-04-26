@@ -6,19 +6,18 @@
     width: 320px;
     flex-wrap: wrap;
     }
-
-    &.flex-grow-max-570-284 {
-      max-width: 280px;
-      flex-grow: 0;
-    }
   }
 
-  .width-1200 {
+  .container {
     width: 320px;
   }
 
   .width-1005 {
     width: 280px;
+  }
+
+  .max-width {
+    max-width: 280px;
   }
 
   .mt-100-768 {
@@ -31,6 +30,10 @@
 
   .mr-30 {
     margin-right: 0;
+  }
+
+  .mb--22-425 {
+    margin-bottom: -17px;
   }
 
   .ml-77-425 {

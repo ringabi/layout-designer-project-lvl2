@@ -53,6 +53,10 @@
     line-height: 21px * 2 / 3;
   }
 
+  .mt-20-1024 {
+    margin-top: 20px;
+  }
+
   .mr-40-1024 {
     margin-right: 40px;
   }
@@ -82,8 +86,8 @@
     vertical-align: 14px;
   }
 
-  .width-1200 {
-    width: 1024px;
+  .container {
+    width: 1024px; 
   }
 
   .width-menu-1 {
@@ -91,7 +95,7 @@
   }
 
   .width-1005 {
-    width: 984px;
+    width: 1005px;
   }
 
   .artist-banner {
@@ -99,5 +103,13 @@
     width: 100%;
     height: 550px;
     box-sizing: border-box;
+  }
+
+  .disc {
+    margin-right: 37.5px;
+  }
+
+  .artist {
+    margin-right: 37.5px;
   }
 }

@@ -1,5 +1,6 @@
-.width-100-percent {
-  width: 100%;
+.container {
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .width-30 {
@@ -74,10 +75,6 @@
   margin-right: 68px;
 }
 
-.mr-50 {
-  margin-right: 50px * 0.75;
-}
-
 .mr-30 {
   margin-right: 30px;
 }
@@ -92,10 +89,6 @@
 
 .mb--25 {
   margin-bottom: -25px;
-}
-
-.ml-360 {
-  margin-left: $main-ml;
 }
 
 .ml-322 {
@@ -261,6 +254,10 @@
 
 .font-size-11px {
   font-size: 11px;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
 }
 
 .text-align-center {

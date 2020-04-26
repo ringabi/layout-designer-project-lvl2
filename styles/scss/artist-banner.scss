@@ -2,7 +2,6 @@
   background: no-repeat url("../images/Morten%20Harket.png");
   width: 100%;
   height: 550px;
-  flex: 0 1 1920px;
   box-sizing: border-box;
 }
 
@@ -17,45 +16,48 @@
     left: 0;
   }
 }
-
-.position-relative {
-  position: relative;
   
-  &.position-triangle-mix {
-    top: -2px;
-    right: -2px;
-  }
-
-  &.position-circle-mix {
-    left: -20px;
-  }
+.position-triangle-btn {
+  position: relative;
+  top: -2px;
+  right: -2px;
 }
 
-.mix {
+.position-circle-btn {
+  position: relative;
+  left: -20px;
+}
+
+
+.btn {
   width: 200px;
   height: 50px;
+  box-sizing: border-box;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.btn-bg-first {
   background: $footer-bg-first;
-  box-sizing: border-box;
-  border-radius: 3px;
 }
 
-.to-favorites { 
-  width: 200px;
-  height: 50px;
+.btn-bg-second { 
   background: $footer-bg-second;
-  box-sizing: border-box;
-  border-radius: 3px;
 }
 
 .triangle:before {
   content: ' \25b7';
-  width: 30px;
+  color: #ffffff;
 }
 
 .circle:before {
   content: ' \25ef';
+  color: #ffffff;
 }
 
 .heart:before {
   content: ' \2661';
+  color: #ffffff;
 }
