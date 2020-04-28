@@ -1,42 +1,35 @@
 @media(max-width: 320px) {
-  .flex {
+  .flex-wrap {
     display: flex;
-
-    &.flex-wrap {
     width: 320px;
     flex-wrap: wrap;
     }
-  }
 
   .container {
     width: 320px;
   }
 
-  .width-1005 {
+  .menu {
     width: 280px;
+  }
+
+  .menu-1 {
+    width: 320px;
   }
 
   .max-width {
     max-width: 280px;
   }
 
-  .mt-100-768 {
-    margin-top: -20px;
-  }
-
-  .mr-40-1024 {
-    margin-right: 60px;
-  }
-
   .mr-30 {
     margin-right: 0;
   }
 
-  .mb--22-425 {
+  .mb--22-sm {
     margin-bottom: -17px;
   }
 
-  .ml-77-425 {
+  .ml-77-sm {
     margin-left: 20px;
   }
 
@@ -44,7 +37,7 @@
     margin-left: -20px;
   }
 
-  .ml-20-320 {
+  .ml-20-sm {
     margin-left: 20px;
   }
 

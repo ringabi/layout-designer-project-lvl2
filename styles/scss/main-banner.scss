@@ -9,18 +9,16 @@
   color: #ffffff;
 }
 
-.position-relative {
+.position-имя {
   position: relative;
-  
-  &.position-имя {
-    top: -113px;
-    left: -240px;
-  }
+  top: -113px;
+  left: -240px;
+}
 
-  &.position-email {
-    top: -113px;
-    right: -32px;
-  }
+.position-email {
+  position: relative;
+  top: -113px;
+  right: -32px;
 }
 
 .input {

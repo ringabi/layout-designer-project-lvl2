@@ -1,25 +1,29 @@
-.bg-free {
-  background: no-repeat url("../images/subscribe_1.png");
-}
-
 .subscription {
-  width: 350px;
-  height: 582px;
   box-sizing: border-box;
-  margin: 0 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
   color: #ffffff;
   text-align: center;
+  padding: 25px 20px 60px 20px;
+  max-width: 350px;
 }
 
-.bg-standart {
+.subscription-free {
+  background: no-repeat url("../images/subscribe_1.png");
+  margin-right: 37.5px;
+}
+
+.subscription-standart {
   background: no-repeat url("../images/subscribe_2.png");
+  margin-right: 37.5px;
+  margin-left: 37.5px;
 }
 
-.bg-premium {
+.subscription-premium {
   background: no-repeat url("../images/subscribe_3.png");
+  margin-left: 37.5px;
 }
 
 .background-color-main {
@@ -64,7 +68,7 @@
 }
 
 .button-app {
-  width: 160px;
+  width: 174px;
   height: 50px;
   box-sizing: border-box;
   background: #FF4157;

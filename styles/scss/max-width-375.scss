@@ -1,45 +1,21 @@
 @media (max-width: 375px) {
-  .mt-100-375 {
-    margin-top: 100px;
-  }
-
-  .mt-70-375 {
-    margin-top: 70px;
-  }
-
-  .mt-100-768 {
-    margin-top: 0;
-  }
-
   .mt-55 {
     margin-top: 0;
   }
 
-  .mt-30-768 {
-    margin-top: 20px;
-  }
-
-  .mr-12-375 {
+  .mr-12-sm {
     margin-right: 12px;
   }
 
-  .mb--22-425 {
+  .mb--22-sm {
     margin-bottom: 0;
   }
 
-  .ml-140-768 {
-    margin-left: -20px;
-  }
-
-  .ml-77-425 {
+  .ml-77-sm {
     margin-left: 52px;
   }
 
-  .ml-36 {
-    margin-left: 0;
-  }
-
-  .ml-20-375 {
+  .ml-20-sm {
     margin-left: 20px;
   }
 
@@ -47,22 +23,20 @@
     vertical-align: 8px;
   }
 
-  .flex-direction-column-375 {
+  .flex-direction-column-sm {
     display: flex;
     flex-direction: column;
   }
 
-  .flex {
+  .flex-wrap {
     display: flex;
+    flex-wrap: wrap;
+    width: 375px;
+  }
 
-    &.flex-wrap {
-      flex-wrap: wrap;
-      width: 375px;
-    }
-
-    &.justify-content-around-1024 {
-      justify-content: flex-start;
-    }
+  .justify-content-around-lg {
+    display: flex;
+    justify-content: flex-start;
   }
 
   .max-width {
@@ -73,8 +47,12 @@
     width: 375px;
   }
 
-  .width-1005 {
+  .menu {
     width: 335px;
+  }
+
+  .menu-1 {
+    width: 375px;
   }
 
   .container-track {
@@ -87,6 +65,11 @@
   .artist-image {
     width: 157.5px;
     height: 157.5px;
+  }
+
+  .subscription-free, .subscription-standart, .subscription-premium {
+    margin-right: 10px;
+    margin-left: 10px;
   }
 
   section {

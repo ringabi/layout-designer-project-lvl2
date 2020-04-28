@@ -1,42 +1,38 @@
 @media(max-width: 768px) {
-  .flex {
+  .flex-wrap {
     display: flex;
-
-    &.flex-wrap {
-      flex-wrap: wrap;
-      width: 768px;
-    }
-
-    &.order-1-768 {
-      order: 1;
-    }
-
-    &.order-2-768 {
-      order: 2;
-    }
-
-    &.flex-direction-column-768 {
-      flex-direction: column;
-    }
+    flex-wrap: wrap;
+    width: 768px;
   }
 
-  .mt-100-768 {
-    margin-top: 100px;
+  .order-1-md {
+    display: flex;
+    order: 1;
+  }
+
+  .order-2-md {
+    display: flex;
+    order: 2;
+  }
+
+  .flex-direction-column-md {
+    display: flex;
+    flex-direction: column;
   }
   
-  .mt-20-768 {
+  .mt-20-md {
     margin-top: 20px;
   }
 
-  .mt-20-1024 {
+  .mt-20-lg {
     margin-top: 0;
   }
 
-  .mt-25-768 {
+  .mt-25-md {
     margin-top: 25px;
   }
 
-  .ml-20-768 {
+  .ml-20-md {
    margin-left: 20px;
   }
 
@@ -44,7 +40,7 @@
     margin-left: 0;
   }
 
-  .ml--26-768 {
+  .ml--26-md {
     margin-left: -26px;
   }
 
@@ -52,11 +48,15 @@
     width: 768px;
   }
 
-  .width-1005 {
+  .menu {
     width: 728px;
   }
 
-  .width-social-network {
+  .menu-1 {
+    width: 768px;
+  }
+
+  .social-network {
     width: 120px;
   }
 
@@ -78,5 +78,19 @@
 
   .artist {
     margin-right: 20px;
+  }
+
+  .subscription-free {
+    margin-right: 14px;
+    margin-left: 20px;
+  }
+
+  .subscription-standart {
+    margin-right: 20px;
+    margin-left: 14px;
+  }
+
+  .subscription-premium {
+    margin-left: 209px;
   }
 }

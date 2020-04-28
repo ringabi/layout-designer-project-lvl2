@@ -21,13 +21,19 @@
   width: 1200px;
 }
 
-.width-1005 {
+.menu {
   width: 1005px;
+  display: flex;
+  justify-content: space-between;
+
+  a {
+    color: #808080;
+  }
 }
 
 .header {
   position: absolute;
-  top: 0;
+  top: 25px;
   right: 0; 
   left: 0;
   font-size: 11px;
@@ -36,8 +42,4 @@
   font-weight: bold;
   color: #808080;
   flex-wrap: wrap;
-}
-
-a {
-  color: #808080;
 }

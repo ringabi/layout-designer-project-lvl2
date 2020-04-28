@@ -5,16 +5,26 @@
 
 .line-1px {
   border: 1px solid #EEEEEE;
+  margin-top: 50px;
 }
 
-.width-menu-1 {
+.menu-1 {
   width: 1020px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-.width-social-network {
+.social-network {
   width: 170px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
 }
 
-.width-menu-2 {
+.menu-2 {
   width: 534px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
