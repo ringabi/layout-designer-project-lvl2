@@ -14,11 +14,7 @@
 
 .position-search {
   position: relative;
-  left: 60px;
-}
-
-.width-1200 {
-  width: 1200px;
+  left: 390px;
 }
 
 .menu {
@@ -32,14 +28,17 @@
 }
 
 .header {
-  position: absolute;
-  top: 25px;
-  right: 0; 
-  left: 0;
   font-size: 11px;
   line-height: 13px;
   text-transform: uppercase;
   font-weight: bold;
   color: #808080;
   flex-wrap: wrap;
+}
+
+.header-absolute {
+  position: absolute;
+  top: 25px;
+  right: 0;
+  left: 0;
 }

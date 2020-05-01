@@ -10,7 +10,7 @@
 </head>
 
 <body class="m-0 font-family-roboto">  
-    <header class="header container">
+    <header class="header header-absolute container">
         <div class="flex justify-content-between flex-direction-column-lg">
             <div class="flex align-items-center ml-20-lg">
                 <img src="images/logo.svg" alt="Логотип" width="20" height="20">
@@ -18,14 +18,15 @@
             </div>
 	    <div class="menu flex-direction-column-md mt-20-lg">
                 <div class="flex flex-direction-column-sm order-2-md ml-20-lg">
-                    <a href="" class="mt-20-md pt-9">главная</a>
+			<a href="" class="mt-20-md pt-9">главная</a>
 	            <a href="catalog.html" class="ml-36 mt-20-md pt-9">каталог</a>
                     <a href="catalog.html" class="ml-36 mt-20-md pt-9">исполнители</a>
                     <a href="" class="ml-36 mt-20-md pt-9">контакты</a>
-                </div>
-                <form class="mt-20-md order-1-md ml--26-md flex align-items-center">
-			<span class="position-search">поиск...</span>
-			<input type="text" class="search-box">
+		    <span class="flex align-items-center position-search">поиск...</span>
+		</div>
+                <form class="mt-20-md order-1-md flex align-items-center">
+			
+			<input type="text" class="search-box ml-20-md">
                 </form>
 	    </div>
 	</div>
@@ -33,9 +34,9 @@
   
     <main class="background-color-main">
         <section id="main-banner" class="banner">
-	    <div class="container flex flex-direction-column flex-wrap mt-217">
-	        <h1 class="font-size-60px text-align-center mb--25 mt-100-sm">онлайн музыка где угодно</h1>
-	        <h3 class="font-size-30px mt-30-sm">без ограничений</h3>
+	    <div class="container flex flex-direction-column flex-wrap">
+	        <h1 class="font-size-60px text-align-center mb-5 mt-100-sm">онлайн музыка где угодно</h1>
+	        <h3 class="font-size-30px mt-auto mt-30-sm">без ограничений</h3>
 		<p class="font-size-18px text-white text-align-center">Получите доступ всего за несколько шагов. Заполните форму ниже и откройте мир музыки</p>
 	    </div>
 	    <form class="flex flex-center flex-direction-column flex-wrap mt-40">
@@ -53,9 +54,9 @@
 	    </form>
         </section>
         <section id="subscription" class="container flex flex-direction-column flex-wrap">
-            <h2 class="font-size-38px mt-100">формы подписки</h2>
-            <div class="flex flex-wrap">
-                <div class="subscription-free subscription">
+            <h2 class="text-align-center">формы подписки</h2>
+            <div class="flex flex-wrap col col-md col-sm mt-50">
+                <div class="subscription-free card mx-auto">
 	            <div class="font-size-24px text-uppercase">бесплатная</div>
 		    <div class="mt-223">
 	                <div>
@@ -66,7 +67,7 @@
 		        <div class="font-size-11px mt-50">Оплата в месяц. Бесплатный тариф предоставляет доступ ко всей коллекции музыки. Присутствует реклама</div>
 		    </div>
 		</div>
-                <div class="subscription-standart subscription">
+                <div class="subscription-standart card mx-auto">
 	            <div class="font-size-24px text-uppercase">стандартная</div>
 		    <div class="mt-223">
 		        <div>
@@ -77,7 +78,7 @@
                         <div class="font-size-11px mt-50">Оплата в месяц. Стандартный тариф предоставляет доступ ко всей коллекции музыки в среднем качестве</div>
                     </div>
 		</div>
-                <div class="subscription-premium subscription">
+                <div class="subscription-premium card mx-auto">
 	            <div class="font-size-24px text-uppercase">премиум</div>
 	            <div class="mt-223">
 		        <div>
@@ -93,42 +94,42 @@
             </div>
         </section>
         <section id="news" class="container">
-	        <h2 class="font-size-38px mt-100">последние новости</h2>
-	        <div class="flex flex-direction-row flex-wrap">
-	            <img class="mt-50 max-width px-20-lg" src="images/Music%20to%20Be%20Murdered%20By.png" alt="">
+	        <h2 class="text-align-center">последние новости</h2>
+	        <div class="flex flex-direction-row flex-wrap mt-50">
+	            <img class="max-width px-20-lg" src="images/Music%20to%20Be%20Murdered%20By.png" alt="">
 	            <div class="ml-68 px-20-lg">
-	                <p class="mt-50 font-size-30px text-white">Music to Be Murdered By</p>
-	                <p class="font-size-14px-lh-28 text-8c8c8c">Новый альбом Eminem "Music to Be Murdered By" уже доступен в нашем сервисе. На альбоме вас ждёт 20 новых треков.</p>
+	                <p class="font-size-30px text-white">Music to Be Murdered By</p>
+	                <p class="font-size-14px line-height-28px text-8c8c8c">Новый альбом Eminem "Music to Be Murdered By" уже доступен в нашем сервисе. На альбоме вас ждёт 20 новых треков.</p>
 	                <div class="mt-16 pt-10">
 	                    <img src="images/avatar.png" alt="">
 	                    <span class="ml-20 color-f89202 text-uppercase">music box</span>
 	                    <span class="line-1 ml-20"></span>
-	                    <span class="ml-20 font-size-12px-lh-28 text-555555">17/01/2020</span>
+	                    <span class="ml-20 font-size-12px line-height-28px text-555555">17/01/2020</span>
 	                </div>
 	                <div class="button-to-album pt-6 mt-30">
 		            <a href="" class="text-8c8c8c">К альбому</a>
 		        </div>
 	            </div>
 	        </div>
-	        <div class="flex flex-direction-row flex-wrap">
-	            <div class="mt-50 flex flex-direction-column flex-wrap order-2 px-20-lg">
+	        <div class="flex flex-direction-row flex-wrap mt-70">
+	            <div class="flex flex-direction-column flex-wrap order-2 px-20-lg">
 	                <p class="font-size-30px text-white">Ordinary Man</p>
-	                <p class="font-size-14px-lh-28 text-8c8c8c">Легенда рока Оззи Озборн спустя 10 лет выпустил новый альбом Ordinary man. Слушайте в числе первых на Music Box</p>
+	                <p class="font-size-14px line-height-28px text-8c8c8c">Легенда рока Оззи Озборн спустя 10 лет выпустил новый альбом Ordinary man. Слушайте в числе первых на Music Box</p>
 	                <div class="mt-16 pt-10">
 	                    <img src="images/avatar.png" alt="">
 	                    <span class="ml-20 color-f89202 text-uppercase">music box</span>
 	                    <span class="line-1 ml-20"></span>
-	                    <span class="ml-20 font-size-12px-lh-28 text-555555">24/02/2020</span>
+	                    <span class="ml-20 font-size-12px line-height-28px text-555555">24/02/2020</span>
 	                </div>
 	                <div class="button-to-album pt-6 mt-30">
 		            <a href="" class="text-8c8c8c">К альбому</a>
 		        </div>
 	            </div>
-	            <img class="mt-70 ml-68 order-1 max-width px-20-lg" src="images/Ordinary%20Man.png" alt="">
+	            <img class="ml-68 order-1 max-width px-20-lg" src="images/Ordinary%20Man.png" alt="">
                 </div> 
         </section>
         <section id="app" class="container pb-100">
-            <h2 class="font-size-38px mt-100">мобильное приложение</h2>
+            <h2 class="text-align-center">мобильное приложение</h2>
             <div class="flex flex-wrap">
 	        <div class="mt-70 flex flex-direction-column order-2 flex-wrap px-20-lg">
 		    <p class="text-8c8c8c">Воспользуйтесь нашим мобильным приложением. Оно позволит слушать музыку с любого устройства на базе операционных систем Android и iOS</p>

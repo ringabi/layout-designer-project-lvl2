@@ -40,10 +40,6 @@
     margin-left: 0;
   }
 
-  .ml--26-md {
-    margin-left: -26px;
-  }
-
   .container {
     width: 768px;
   }
@@ -60,11 +56,12 @@
     width: 120px;
   }
 
+  .banner {
+    background: no-repeat top 0 left -550px url("../images/banner.png");
+  }
+
   .artist-banner {
     background: top 0 left -947px url("../images/Morten%20Harket.png");
-    width: 100%;
-    height: 550px;
-    box-sizing: border-box;
   }
 
   .artist-image {
@@ -80,17 +77,22 @@
     margin-right: 20px;
   }
 
-  .subscription-free {
+  .subscription-fre {
     margin-right: 14px;
     margin-left: 20px;
   }
 
-  .subscription-standart {
+  .subscription-standar {
     margin-right: 20px;
     margin-left: 14px;
   }
 
-  .subscription-premium {
+  .subscription-premiu {
     margin-left: 209px;
+  }
+
+  .position-search {
+    left: -335px;
+    bottom: 35px;
   }
 }

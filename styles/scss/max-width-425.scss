@@ -4,7 +4,7 @@
     line-height: $line-height-70 / 2;
   }
 
-  .font-size-38px {
+  h2 {
     font-size: 20px;
     line-height: 23px;
   }
@@ -38,6 +38,10 @@
 
   .mt-20-sm {
     margin-top: 20px;
+  }
+
+  .mt-50-lg {
+    margin-top: 0;
   }
 
   .mb--22-sm {
@@ -113,11 +117,12 @@
     max-width: 385px;
   }
 
+  .banner {
+    background: no-repeat top 0 left -650px url("../images/banner.png");
+  }
+
   .artist-banner {
     background: no-repeat top 0 left -1097px url("../images/Morten%20Harket.png");
-    width: 100%;
-    height: 550px;
-    box-sizing: border-box;
   }
 
   .artist-image {
@@ -139,5 +144,11 @@
   .subscription-premium {
     margin-right: 37.5px;
     margin-left: 37.5px;
+  }
+
+  .position-search {
+    left: 10px;
+    bottom: 190px;
+    width: 50px;
   }
 }

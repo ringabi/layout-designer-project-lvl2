@@ -1,29 +1,43 @@
-.subscription {
-  box-sizing: border-box;
+.card {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
   color: #ffffff;
   text-align: center;
+  min-width: 0;
   padding: 25px 20px 60px 20px;
+  box-sizing: border-box;
   max-width: 350px;
+}
+
+.col {
+  flex: 0 0 33.33%;
+  max-width: 100.0%;
+}
+
+@media(max-width: 1024px) {
+  .col-md {
+    flex: 0 0 50%;
+    max-width: 100%;
+  }
+}
+
+@media(max-width: 426px) {
+  .col-sm {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
 }
 
 .subscription-free {
   background: no-repeat url("../images/subscribe_1.png");
-  margin-right: 37.5px;
 }
 
 .subscription-standart {
   background: no-repeat url("../images/subscribe_2.png");
-  margin-right: 37.5px;
-  margin-left: 37.5px;
 }
 
 .subscription-premium {
   background: no-repeat url("../images/subscribe_3.png");
-  margin-left: 37.5px;
 }
 
 .background-color-main {
@@ -45,6 +59,8 @@
   justify-content: center;
   align-items: center;
   color: #ffffff;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .line-1 {
