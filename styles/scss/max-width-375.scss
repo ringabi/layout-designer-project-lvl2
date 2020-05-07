@@ -1,4 +1,4 @@
-@media (max-width: 375px) {
+@media (max-width: 424px) {
   .mt-55 {
     margin-top: 0;
   }
@@ -70,6 +70,14 @@
   .subscription-free, .subscription-standart, .subscription-premium {
     margin-right: 10px;
     margin-left: 10px;
+  }
+
+  .button-app {
+    width: 335px;
+  }
+
+  .top--128-sm {
+    top: -104px;
   }
 
   section {

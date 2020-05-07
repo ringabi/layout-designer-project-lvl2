@@ -1,4 +1,4 @@
-@media(max-width: 426px) {
+@media(max-width: 767px) {
   .font-size-60px {
     font-size: $font-size-60 / 2;
     line-height: $line-height-70 / 2;
@@ -44,16 +44,8 @@
     margin-top: 0;
   }
 
-  .mb--22-sm {
-    margin-bottom: -22px;
-  }
-
   .ml-77-sm {
     margin-left: 77px;
-  }
-
-  .ml-211 {
-    margin-left: 0px;
   }
 
   .ml-20-sm {
@@ -64,10 +56,14 @@
     margin-left: 0;
   }
 
-  .my-50 {
-    margin-top: 15px;
-    margin-bottom: 15px;
+  .mx-20-sm {
+    margin-right: 20px;
     margin-left: 20px;
+  }
+
+  .my-50 {
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 
   .container {
@@ -130,25 +126,17 @@
     height: 182.5px;
   }
 
-  .subscription-free {
-    margin-right: 37.5px;
-    margin-left: 37.5px;
-  }
-
   .subscription-standart {
     margin-top: 20px;
-    margin-right: 37.5px;
-    margin-left: 37.5px;
-  }
-
-  .subscription-premium {
-    margin-right: 37.5px;
-    margin-left: 37.5px;
   }
 
   .position-search {
     left: 10px;
     bottom: 190px;
     width: 50px;
+  }
+
+  .top--128-sm {
+    top: -128px;
   }
 }

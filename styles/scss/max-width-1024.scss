@@ -1,4 +1,4 @@
-@media(max-width: 1024px) {
+@media(max-width: 1279px) {
   .flex-wrap {
     display: flex;
     flex-wrap: wrap;
@@ -88,15 +88,20 @@
   }
 
   .artist-banner {
-    background: no-repeat top 0 left -697px url("../images/Morten%20Harket.png");
+    background: no-repeat top 0 left -597px url("../images/Morten%20Harket.png");
+  }
+
+  .artist-image {
+    width: 231px;
+    height: 231px;
   }
 
   .disc {
-    margin-right: 37.5px;
+    margin-right: 20px;
   }
 
   .artist {
-    margin-right: 37.5px;
+    margin-right: 20px;
   }
 
   .subscription-premium {

@@ -1,4 +1,4 @@
-@media(max-width: 768px) {
+@media(max-width: 1023px) {
   .flex-wrap {
     display: flex;
     flex-wrap: wrap;
@@ -49,7 +49,7 @@
   }
 
   .menu-1 {
-    width: 768px;
+    width: 748px;
   }
 
   .social-network {
@@ -61,7 +61,7 @@
   }
 
   .artist-banner {
-    background: top 0 left -947px url("../images/Morten%20Harket.png");
+    background: no-repeat top 0 left -847px url("../images/Morten%20Harket.png");
   }
 
   .artist-image {
@@ -75,20 +75,6 @@
 
   .artist {
     margin-right: 20px;
-  }
-
-  .subscription-fre {
-    margin-right: 14px;
-    margin-left: 20px;
-  }
-
-  .subscription-standar {
-    margin-right: 20px;
-    margin-left: 14px;
-  }
-
-  .subscription-premiu {
-    margin-left: 209px;
   }
 
   .position-search {

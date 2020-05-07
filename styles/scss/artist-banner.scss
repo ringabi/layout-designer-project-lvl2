@@ -5,17 +5,6 @@
   padding-top: 225px;
   padding-bottom: 82px;
 }
-  
-.position-triangle-btn {
-  position: relative;
-  top: -2px;
-  right: -2px;
-}
-
-.position-circle-btn {
-  position: relative;
-  left: -20px;
-}
 
 .btn {
   width: 200px;
@@ -25,6 +14,7 @@
   display: flex;
   align-items: center;
   text-transform: uppercase;
+  padding-left: 15px;
 }
 
 .btn-bg-first {
@@ -33,19 +23,4 @@
 
 .btn-bg-second { 
   background: $footer-bg-second;
-}
-
-.triangle:before {
-  content: ' \25b7';
-  color: #ffffff;
-}
-
-.circle:before {
-  content: ' \25ef';
-  color: #ffffff;
-}
-
-.heart:before {
-  content: ' \2661';
-  color: #ffffff;
 }

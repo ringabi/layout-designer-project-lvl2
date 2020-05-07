@@ -151,6 +151,10 @@ footer a {
   margin-right: 12px;
 }
 
+.mb-50 {
+  margin-bottom: 50px;
+}
+
 .mb-20 {
   margin-bottom: 20px;
 }
@@ -193,6 +197,10 @@ footer a {
 
 .ml-20 {
   margin-left: 20px;
+}
+
+.ml-15 {
+  margin-left: 15px;
 }
 
 .ml-4 {
@@ -257,6 +265,10 @@ footer a {
 .px-20 {
   padding-right: 20px;
   padding-left: 20px;
+}
+
+.filter-invert-100 {
+  filter: invert(100%);
 }
 
 .font-weight-bold {
@@ -547,7 +559,7 @@ footer a {
 
 .line-1px {
   border: 1px solid #EEEEEE;
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
 .menu-1 {
@@ -569,6 +581,8 @@ footer a {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .artist-banner {
@@ -579,17 +593,6 @@ footer a {
   padding-bottom: 82px;
 }
 
-.position-triangle-btn {
-  position: relative;
-  top: -2px;
-  right: -2px;
-}
-
-.position-circle-btn {
-  position: relative;
-  left: -20px;
-}
-
 .btn {
   width: 200px;
   height: 50px;
@@ -598,6 +601,7 @@ footer a {
   display: flex;
   align-items: center;
   text-transform: uppercase;
+  padding-left: 15px;
 }
 
 .btn-bg-first {
@@ -606,21 +610,6 @@ footer a {
 
 .btn-bg-second {
   background: #95390C;
-}
-
-.triangle:before {
-  content: " ▷";
-  color: #ffffff;
-}
-
-.circle:before {
-  content: " ◯";
-  color: #ffffff;
-}
-
-.heart:before {
-  content: " ♡";
-  color: #ffffff;
 }
 
 .container-track {
@@ -639,16 +628,10 @@ footer a {
   color: #ffffff;
 }
 
-.position-triangle {
+.position-play-btn {
   position: relative;
-  top: -124.25px;
-  right: -18.75px;
-}
-
-.position-circle {
-  position: relative;
-  top: -98.25px;
-  right: -11.25px;
+  top: -104px;
+  right: -15px;
 }
 
 .disc {
@@ -669,7 +652,7 @@ footer a {
 
 @media (max-width: 1280px) {
   .artist-banner {
-    background: top 0 left -447px url("../images/Morten%20Harket.png");
+    background: no-repeat top 0 left -447px url("../images/Morten%20Harket.png");
   }
 
   .banner {
@@ -677,11 +660,11 @@ footer a {
   }
 
   .artist-image {
-    width: 201.25px;
-    height: 201.25px;
+    width: 260px;
+    height: 260px;
   }
 }
-@media (max-width: 1024px) {
+@media (max-width: 1279px) {
   .flex-wrap {
     display: flex;
     flex-wrap: wrap;
@@ -772,15 +755,20 @@ footer a {
   }
 
   .artist-banner {
-    background: no-repeat top 0 left -697px url("../images/Morten%20Harket.png");
+    background: no-repeat top 0 left -597px url("../images/Morten%20Harket.png");
+  }
+
+  .artist-image {
+    width: 231px;
+    height: 231px;
   }
 
   .disc {
-    margin-right: 37.5px;
+    margin-right: 20px;
   }
 
   .artist {
-    margin-right: 37.5px;
+    margin-right: 20px;
   }
 
   .subscription-premium {
@@ -791,7 +779,7 @@ footer a {
     left: 370px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
   .flex-wrap {
     display: flex;
     flex-wrap: wrap;
@@ -842,7 +830,7 @@ footer a {
   }
 
   .menu-1 {
-    width: 768px;
+    width: 748px;
   }
 
   .social-network {
@@ -854,7 +842,7 @@ footer a {
   }
 
   .artist-banner {
-    background: top 0 left -947px url("../images/Morten%20Harket.png");
+    background: no-repeat top 0 left -847px url("../images/Morten%20Harket.png");
   }
 
   .artist-image {
@@ -870,26 +858,12 @@ footer a {
     margin-right: 20px;
   }
 
-  .subscription-fre {
-    margin-right: 14px;
-    margin-left: 20px;
-  }
-
-  .subscription-standar {
-    margin-right: 20px;
-    margin-left: 14px;
-  }
-
-  .subscription-premiu {
-    margin-left: 209px;
-  }
-
   .position-search {
     left: -335px;
     bottom: 35px;
   }
 }
-@media (max-width: 426px) {
+@media (max-width: 767px) {
   .font-size-60px {
     font-size: 30px;
     line-height: 35px;
@@ -935,16 +909,8 @@ footer a {
     margin-top: 0;
   }
 
-  .mb--22-sm {
-    margin-bottom: -22px;
-  }
-
   .ml-77-sm {
     margin-left: 77px;
-  }
-
-  .ml-211 {
-    margin-left: 0px;
   }
 
   .ml-20-sm {
@@ -955,10 +921,14 @@ footer a {
     margin-left: 0;
   }
 
-  .my-50 {
-    margin-top: 15px;
-    margin-bottom: 15px;
+  .mx-20-sm {
+    margin-right: 20px;
     margin-left: 20px;
+  }
+
+  .my-50 {
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 
   .container {
@@ -1021,20 +991,8 @@ footer a {
     height: 182.5px;
   }
 
-  .subscription-free {
-    margin-right: 37.5px;
-    margin-left: 37.5px;
-  }
-
   .subscription-standart {
     margin-top: 20px;
-    margin-right: 37.5px;
-    margin-left: 37.5px;
-  }
-
-  .subscription-premium {
-    margin-right: 37.5px;
-    margin-left: 37.5px;
   }
 
   .position-search {
@@ -1042,8 +1000,12 @@ footer a {
     bottom: 190px;
     width: 50px;
   }
+
+  .top--128-sm {
+    top: -128px;
+  }
 }
-@media (max-width: 375px) {
+@media (max-width: 424px) {
   .mt-55 {
     margin-top: 0;
   }
@@ -1117,6 +1079,14 @@ footer a {
     margin-left: 10px;
   }
 
+  .button-app {
+    width: 335px;
+  }
+
+  .top--128-sm {
+    top: -104px;
+  }
+
   section .font-size-16px {
     font-size: 12px;
     line-height: 14.25px;
@@ -1126,7 +1096,7 @@ footer a {
     line-height: 19px;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 374px) {
   .flex-wrap {
     display: flex;
     width: 320px;
@@ -1159,10 +1129,6 @@ footer a {
 
   .ml-77-sm {
     margin-left: 20px;
-  }
-
-  .ml-211 {
-    margin-left: -20px;
   }
 
   .ml-20-sm {
@@ -1207,6 +1173,10 @@ footer a {
     border: 4px solid #ffffff;
     box-sizing: border-box;
     border-radius: 4px;
+  }
+
+  .button-app {
+    width: 280px;
   }
 }
 
