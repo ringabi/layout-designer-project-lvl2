@@ -1,10 +1,10 @@
 @charset "UTF-8";
 .text-white {
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .text-silver {
-  color: #CACACA;
+  color: #cacaca;
 }
 
 .text-gray {
@@ -16,11 +16,11 @@
 }
 
 .text-555555 {
-  color: #555555;
+  color: #555;
 }
 
 .color-f89202 {
-  color: #F89202;
+  color: #f89202;
 }
 
 .font-family-roboto {
@@ -29,7 +29,7 @@
 
 h1, h2, h3 {
   font-weight: bold;
-  color: #ffffff;
+  color: #fff;
   text-transform: uppercase;
   font-style: normal;
 }
@@ -55,16 +55,12 @@ a:focus, a:hover {
 }
 
 footer a {
-  color: #CACACA;
+  color: #cacaca;
 }
 
 .container {
   width: 1200px;
   margin: 0 auto;
-}
-
-.width-30 {
-  width: 30px;
 }
 
 .m-0 {
@@ -79,20 +75,8 @@ footer a {
   margin-top: auto;
 }
 
-.mt-225 {
-  margin-top: 225px;
-}
-
 .mt-223 {
   margin-top: 223px;
-}
-
-.mt-217 {
-  margin-top: 217px;
-}
-
-.mt-100 {
-  margin-top: 100px;
 }
 
 .mt-80 {
@@ -101,10 +85,6 @@ footer a {
 
 .mt-70 {
   margin-top: 70px;
-}
-
-.mt-55 {
-  margin-top: 55px;
 }
 
 .mt-50, .mt-50-lg {
@@ -131,28 +111,8 @@ footer a {
   margin-top: 10px;
 }
 
-.mt-15 {
-  margin-top: 15px;
-}
-
-.mr-68 {
-  margin-right: 68px;
-}
-
 .mr-30 {
   margin-right: 30px;
-}
-
-.mr-20 {
-  margin-right: 20px;
-}
-
-.mr-12 {
-  margin-right: 12px;
-}
-
-.mb-50 {
-  margin-bottom: 50px;
 }
 
 .mb-20 {
@@ -163,36 +123,16 @@ footer a {
   margin-bottom: 5px;
 }
 
-.mb-0 {
-  margin-bottom: 0;
-}
-
-.ml-322 {
-  margin-left: 26.83%;
-}
-
 .ml-211 {
   margin-left: 10.99%;
-}
-
-.ml-113 {
-  margin-left: 113px;
 }
 
 .ml-68 {
   margin-left: 3.54%;
 }
 
-.ml-50 {
-  margin-left: 2.6%;
-}
-
 .ml-36 {
   margin-left: 36px;
-}
-
-.ml-30 {
-  margin-left: 30px;
 }
 
 .ml-20 {
@@ -212,24 +152,6 @@ footer a {
   margin-left: auto;
 }
 
-.mx-20 {
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-.my-50 {
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
-.pt-100 {
-  padding-top: 100px;
-}
-
-.pt-17 {
-  padding-top: 17px;
-}
-
 .pt-10 {
   padding-top: 10px;
 }
@@ -240,10 +162,6 @@ footer a {
 
 .pt-6 {
   padding-top: 6px;
-}
-
-.pr-12 {
-  padding-right: 12px;
 }
 
 .pb-100 {
@@ -260,11 +178,6 @@ footer a {
 
 .pl-5 {
   padding-left: 5px;
-}
-
-.px-20 {
-  padding-right: 20px;
-  padding-left: 20px;
 }
 
 .filter-invert-100 {
@@ -374,7 +287,7 @@ footer a {
   border-radius: 50px;
   box-sizing: border-box;
   border: none;
-  color: #ffffff;
+  color: #fff;
 }
 
 .position-search {
@@ -414,7 +327,7 @@ footer a {
   width: 100%;
   flex: 0 1 1920px;
   box-sizing: border-box;
-  color: #ffffff;
+  color: #fff;
   padding-top: 217px;
   padding-bottom: 238px;
 }
@@ -443,7 +356,7 @@ footer a {
 .button {
   width: 570px;
   height: 50px;
-  background: #34C176;
+  background: #34c176;
   border-radius: 3px;
   box-sizing: border-box;
   font-size: 14px;
@@ -458,7 +371,7 @@ footer a {
 .card {
   display: flex;
   flex-direction: column;
-  color: #ffffff;
+  color: #fff;
   text-align: center;
   min-width: 0;
   padding: 25px 20px 60px 20px;
@@ -504,7 +417,7 @@ footer a {
   width: 300px;
   height: 60px;
   background: rgba(255, 255, 255, 0);
-  border: 4px solid #FFFFFF;
+  border: 4px solid #fff;
   box-sizing: border-box;
   border-radius: 4px;
   font-size: 24px;
@@ -513,7 +426,7 @@ footer a {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #ffffff;
+  color: #fff;
   margin-right: auto;
   margin-left: auto;
 }
@@ -521,14 +434,14 @@ footer a {
 .line-1 {
   width: 11px;
   height: 0;
-  border: 1px solid #B8B8B8;
+  border: 1px solid #b8b8b8;
   transform: rotate(90deg);
 }
 
 .button-to-album {
   width: 130px;
   height: 40px;
-  border: 1px solid #E9E9E9;
+  border: 1px solid #e9e9e9;
   box-sizing: border-box;
   background: rgba(255, 255, 255, 0);
   font-weight: bold;
@@ -542,7 +455,7 @@ footer a {
   width: 174px;
   height: 50px;
   box-sizing: border-box;
-  background: #FF4157;
+  background: #ff4157;
   border-radius: 50px;
   display: flex;
   justify-content: center;
@@ -558,7 +471,7 @@ footer a {
 }
 
 .line-1px {
-  border: 1px solid #EEEEEE;
+  border: 1px solid #eee;
   margin-top: 100px;
 }
 
@@ -625,7 +538,7 @@ footer a {
   margin-right: 68px;
   font-size: 14px;
   line-height: 16px;
-  color: #ffffff;
+  color: #fff;
 }
 
 .position-play-btn {
@@ -638,7 +551,7 @@ footer a {
   display: flex;
   flex-direction: column;
   margin-right: 50px;
-  color: #ffffff;
+  color: #fff;
 }
 
 .artist {
@@ -647,7 +560,7 @@ footer a {
   justify-content: center;
   align-items: center;
   margin-right: 50px;
-  color: #ffffff;
+  color: #fff;
 }
 
 @media (max-width: 1280px) {
@@ -679,11 +592,6 @@ footer a {
   .order-2 {
     display: flex;
     order: 2;
-  }
-
-  .justify-content-around-lg {
-    display: flex;
-    justify-content: space-around;
   }
 
   .flex-direction-column-lg {
@@ -718,10 +626,6 @@ footer a {
 
   .mt-20-lg {
     margin-top: 20px;
-  }
-
-  .mb--25 {
-    margin-bottom: -15px;
   }
 
   .ml-68 {
@@ -926,11 +830,6 @@ footer a {
     margin-left: 20px;
   }
 
-  .my-50 {
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-
   .container {
     width: 425px;
   }
@@ -1006,14 +905,6 @@ footer a {
   }
 }
 @media (max-width: 424px) {
-  .mt-55 {
-    margin-top: 0;
-  }
-
-  .mr-12-sm {
-    margin-right: 12px;
-  }
-
   .mb--22-sm {
     margin-bottom: 0;
   }
@@ -1022,28 +913,10 @@ footer a {
     margin-left: 52px;
   }
 
-  .ml-20-sm {
-    margin-left: 20px;
-  }
-
-  .vertical-align-20 {
-    vertical-align: 8px;
-  }
-
-  .flex-direction-column-sm {
-    display: flex;
-    flex-direction: column;
-  }
-
   .flex-wrap {
     display: flex;
     flex-wrap: wrap;
     width: 375px;
-  }
-
-  .justify-content-around-lg {
-    display: flex;
-    justify-content: flex-start;
   }
 
   .max-width {
@@ -1131,15 +1004,6 @@ footer a {
     margin-left: 20px;
   }
 
-  .ml-20-sm {
-    margin-left: 20px;
-  }
-
-  .px-20 {
-    padding-right: 0;
-    padding-left: 0;
-  }
-
   .artist-image {
     width: 130px;
     height: 130px;
@@ -1170,7 +1034,7 @@ footer a {
     width: 260px;
     height: 60px;
     background: rgba(255, 255, 255, 0);
-    border: 4px solid #ffffff;
+    border: 4px solid #fff;
     box-sizing: border-box;
     border-radius: 4px;
   }

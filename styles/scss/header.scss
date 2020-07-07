@@ -3,13 +3,13 @@
   align-items: center;
   width: 278px;
   height: 30px;
-  background: #3c3b3d;
+  background: $btn-search-bg;
   padding-left: 70px;
   padding-right: 10px;
   border-radius: 50px;
   box-sizing: border-box;
   border: none;
-  color: #ffffff;
+  color: $primary-text-color;
 }
 
 .position-search {
@@ -23,7 +23,7 @@
   justify-content: space-between;
 
   a {
-    color: #808080;
+    color: $header-text-color;
   }
 }
 
@@ -32,7 +32,7 @@
   line-height: 13px;
   text-transform: uppercase;
   font-weight: bold;
-  color: #808080;
+  color: $header-text-color;
   flex-wrap: wrap;
 }
 
