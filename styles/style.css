@@ -87,7 +87,7 @@ footer a {
   margin-top: 70px;
 }
 
-.mt-50, .mt-50-lg {
+.mt-50 {
   margin-top: 50px;
 }
 
@@ -109,6 +109,10 @@ footer a {
 
 .mt-10 {
   margin-top: 10px;
+}
+
+.mt-50-lg {
+  margin-top: 50px;
 }
 
 .mr-30 {
